@@ -95,5 +95,6 @@ pendown()
 
 right(90)
 forward(60)
+#end of second window
 
 exitonclick()

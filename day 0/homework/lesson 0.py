@@ -4,8 +4,9 @@ from turtle import *
 #we want to build a house
 
 #step 1: draw a square
-width(7)
-color("red")
+width(4)
+speed(10)
+color("black")
 forward(200)
 left(90)
 forward(200)
@@ -19,7 +20,7 @@ left(90)
 #drawing a door
 
 forward(70)
-color("purple")
+color("black")
 begin_fill()
 left(90)
 forward(95) #height
@@ -35,7 +36,7 @@ penup()
 goto(200, 200)
 pendown()
 
-color("orange")
+color("black")
 begin_fill()
 right(150)
 forward(200)
@@ -51,7 +52,7 @@ goto(70, 175)
 pendown()
 
 right(60)
-color("pink")
+color("black")
 forward(60)
 left(90)
 forward(60)

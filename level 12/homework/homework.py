@@ -54,8 +54,10 @@ product = 1
 num = 1
 
 while num <= 10:
-    product = product * num  # Augmented assignment operator
+    product = product * num 
     num += 1
+
+print(num)
 
 #task 7 make the user input a number and tell if it is odd or even
 

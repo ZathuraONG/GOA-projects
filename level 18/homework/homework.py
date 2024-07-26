@@ -2,11 +2,6 @@
 def add_numbers(a, b):
     return a + b
 
-num1 = 5
-num2 = 3
-result = add_numbers(num1, num2)
-print(result)
-
 #task 3
 
 def multiply_three_numbers(a, b, c):
@@ -15,9 +10,6 @@ def multiply_three_numbers(a, b, c):
 num1 = 4
 num2 = 5
 num3 = 6
-result = multiply_three_numbers(num1, num2, num3)
-print(result)
-
 
 #task 4
 
@@ -51,3 +43,6 @@ num3 = 6
 product_result = multiply_three_numbers(num1, num2, num3)
 
 print(product_result)
+
+#task 7
+

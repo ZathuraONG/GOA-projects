@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <style>
+        #p1 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!--inline is when you type "style" inside of the element iteself-->
+    <!--internal is when you use <style> tags and write the css code there-->
+    <!--external is when you make a different .css file and style the html file from there by linking it-->
+
+    <p id="p1">hello world</p>
+    <p style="color: aqua;">hello world</p>
+    <p id="p2">hello world</p>
+</body>
+</html>
+
+<!--when it comes to ranking, inline has the highest specificity, then externl and internal-->
+<!--elements, ids and classes also have rankings with id having the highest specificity, then class and element with the lowest specificity-->

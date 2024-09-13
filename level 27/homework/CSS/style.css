@@ -1,0 +1,40 @@
+a {
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 10px; 
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  a.underline {
+    text-decoration: underline;
+  }
+  
+  a.overline {
+    text-decoration: overline;
+  }
+  
+  a.line-through {
+    text-decoration: line-through;
+  }
+  
+  a.underline-overline {
+    text-decoration: underline overline;
+  }
+  
+  a.wavy {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+  }
+  
+  a.dotted {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+  }
+  
+  a.dashed {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+  }

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=New+Amsterdam&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Matemasie&family=New+Amsterdam&display=swap');
+
+#first{
+    font-size: 2.5em;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+#second{
+    font-size: 2.5em;
+    font-family: "Dancing Script", sans-serif;
+}
+
+#third{
+    font-size: 2.5em;
+    font-family: "Matemasie", sans-serif;
+}

@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    width: 400px;
+    background-color: #f2f2f2;
+}
+
+.grid-container > div {
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.one {
+    grid-column: span 2;
+}
+
+.two {
+    grid-row: span 2;
+}
+
+.four, .five {
+    grid-column: span 1;
+}
